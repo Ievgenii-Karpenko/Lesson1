@@ -12,6 +12,8 @@ namespace Lesson8
             Console.WriteLine($"Please write a text that you want to input to the file {path}");
             string content = Console.ReadLine();
 
+            //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
             File.WriteAllText(path, content);
 
             if (File.Exists(path))
@@ -57,6 +59,8 @@ namespace Lesson8
                 Console.WriteLine($"Player name: {name}");
                 Console.WriteLine($"Player surname: {surname}");
                 Console.WriteLine($"Player age: {age}");
+
+                Console.WriteLine("Hello World!");
             }
 
             string chrome = @"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe";
