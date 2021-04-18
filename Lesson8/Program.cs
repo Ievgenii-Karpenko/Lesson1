@@ -17,6 +17,13 @@ namespace Lesson8
 
             File.WriteAllText(path, content);
 
+            // Розробка логіки нашого Feature branch
+            // .....
+            // .....
+            // .....
+            // .....
+            // Кінець
+
             if (File.Exists(path))
             {
                 Console.WriteLine($"File {path} exists");
