@@ -8,6 +8,7 @@ namespace Lesson8
     {
         static void Main(string[] args)
         {
+            // Ця строка була додана через GitHub
             string path = @"C:\test\MyFile.txt";
             Console.WriteLine($"Please write a text that you want to input to the file {path}");
             string content = Console.ReadLine();
